@@ -46,7 +46,6 @@ GEM
     eventmachine (0.12.10)
     execjs (1.2.0)
       multi_json (~> 1.0)
-    fastercsv (1.5.4)
     hashie (0.4.0)
     hike (1.1.0)
     httparty (0.5.2)
@@ -132,9 +131,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport
   coffee-script
   execjs
-  fastercsv
   jquery-rails
   pg
   rails (= 3.1.0.rc4)
