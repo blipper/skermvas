@@ -42,11 +42,11 @@ GEM
     coffee-script-source (1.1.1)
     crack (0.1.6)
     daemons (1.1.4)
-    devil (0.1.9.5)
     erubis (2.7.0)
     eventmachine (0.12.10)
     execjs (1.2.0)
       multi_json (~> 1.0)
+    fastercsv (1.5.4)
     hashie (0.4.0)
     hike (1.1.0)
     httparty (0.5.2)
@@ -133,8 +133,8 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-script
-  devil
   execjs
+  fastercsv
   jquery-rails
   pg
   rails (= 3.1.0.rc4)
