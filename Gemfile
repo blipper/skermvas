@@ -17,12 +17,12 @@ gem 'execjs'
 gem 'therubyracer'
 gem 'jquery-rails'
 gem 'url_validator'
-gem 'devil'
 gem 'uuidtools'
 gem 'url_shortener'
 gem 'rmagick'
 gem 'right_aws'
 gem 'right_http_connection'
+gem 'fastercsv'
 
 
 # Use unicorn as the web server
