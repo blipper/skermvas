@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vericap</title>
+  <!-- WEBSITE DESCRIPTION FOR SEO -->
+  <meta name="description" content="Simple, trusted, webpage capture">
+
+  <!-- WEBSITE KEYWORDS FOR SEO -->
+  <meta name="keywords" content="screenshot, screencapture, image capture">
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body class="yui-skin-sam">
+
+<%= yield %>
+
+<script type="text/javascript">
+    var sourceurl = new YAHOO.widget.Tooltip("ttA", {
+        context:main
+    });
+</script>
+
+
+<div id="Container" class="pngfix">
+
+        <div id="Information">
+            <!--<p><a class="homepage" href="#" title="Go to homepage">Return to Capture</a></p>-->
+        </div>
+
+        <!-- ***** SITE MAP MENUS - edit these to reflect your site's structure. Be sure to include your most important & popular pages. Including 'typical' options is recommended - e.g. home, about, services, contact details etc -->
+
+      <!-- List Two -->
+      <ul class="menu">
+          <!-- Heading - if you don't want this to be a heading, and want it styled as the rest of the list items, remove 'class="heading"' -->
+          <li class="heading"><a href="#" title="Visit this page">About</a></li>
+      </ul>
+
+
+        <!-- List Two -->
+        <ul class="menu">
+        	<!-- Heading - if you don't want this to be a heading, and want it styled as the rest of the list items, remove 'class="heading"' -->
+			<li class="heading"><a href="#" title="Visit this page">Services</a></li>
+        </ul>
+
+
+        <!-- List Three -->
+        <ul class="menu">
+        	<!-- Heading - if you don't want this to be a heading, and want it styled as the rest of the list items, remove 'class="heading"' -->
+            <li class="heading"><a href="#" title="Visit this page">Pricing</a></li>
+            <!-- List Items -->
+            <!--<li><a href="#" title="Visit this page">Sed tempor incididu</a></li> -->
+        </ul>
+
+        <!-- END OF SITE MAP MENUS -->
+
+    <div class="clear"></div>
+</div>
+
+<div id="BottomBorder" class="pngfix"></div>
+</body>
+</html>

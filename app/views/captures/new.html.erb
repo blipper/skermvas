@@ -1,0 +1,46 @@
+<!-- Combo-handled YUI CSS files: -->
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/combo?2.9.0/build/resize/assets/skins/sam/resize.css&2.9.0/build/imagecropper/assets/skins/sam/imagecropper.css">
+<!-- Combo-handled YUI JS files: -->
+<script type="text/javascript" src="http://yui.yahooapis.com/combo?2.9.0/build/yahoo-dom-event/yahoo-dom-event.js&2.9.0/build/element/element-min.js&2.9.0/build/dragdrop/dragdrop-min.js&2.9.0/build/resize/resize-min.js&2.9.0/build/imagecropper/imagecropper-min.js"></script>
+
+<div id="wrap">
+
+<!--
+  <div id="hints">
+  Please select the area of the webpage you wish to capture.  You can capture the entire webpage or just crop a smaller section of it.  You can share the link to allow third-parties to verify the screen shot.
+  </div>
+-->
+  <div id="Container">
+    <%= form_for(@capture) do |c| %>
+        <%= hidden_field_tag 'top',0 %>
+        <%= hidden_field_tag 'left', 0 %>
+        <%= hidden_field_tag 'height', 50  %>
+        <%= hidden_field_tag 'width', 50 %>
+        <div class="actions">
+
+          <%= c.submit "Capture the selected area", :id => "btnSubmit" %>
+          <input id=btnCaptureIsnt type=submit name=btnCaptureIsnt value='Not what you expected to see?'/>
+        </div>
+        <div title="Please select the area of the webpage you wish to capture. You can capture the entire webpage or just crop a smaller section of it. You can share the link to allow third-parties to verify the screen shot.">
+            <img src=<%= @fullimageurl %> alt="There was an error and the image cannot be displayed" id="screenpic" />
+        </div>
+        <br>
+            <script>
+            (function() {
+                var Dom = YAHOO.util.Dom,
+                    Event = YAHOO.util.Event;
+
+                var crop = new YAHOO.widget.ImageCropper('screenpic', {initialHeight: (Dom.get('screenpic').height /4), initialWidth: (Dom.get('screenpic').width /4)});
+                var setCropArea = function(e) {
+                    var coords = crop.getCropCoords();
+                    YAHOO.util.Dom.get('top').value = coords.top;
+                    YAHOO.util.Dom.get('left').value = coords.left;
+                    YAHOO.util.Dom.get('height').value = coords.height;
+                    YAHOO.util.Dom.get('width').value = coords.width;
+                }
+                YAHOO.util.Event.addListener("btnSubmit","click", setCropArea);
+            })();
+            </script>
+    <% end %>
+  </div>
+</div>

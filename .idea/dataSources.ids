@@ -1,0 +1,32 @@
+<?xml version="1.0"?><component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails vericap: development" product="" version="" jdbc-version="" driver-version="" uuid="102955f7-3423-410b-8663-185e48b7d208">
+    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+    <jdbc-url>jdbc:postgresql://127.0.0.1/vericap_dev</jdbc-url>
+    <user-name>martin</user-name>
+    <libraries>
+      <library>
+        <url>jar://$USER_HOME$/.RubyMine31/config/jdbc-drivers/postgresql-9.0-801.jdbc4.jar!/</url>
+      </library>
+    </libraries>
+  </data-source>
+  <data-source source="LOCAL" name="Rails vericap: test" product="" version="" jdbc-version="" driver-version="" uuid="fc94c304-39a4-4e88-af19-d3ec2d387571">
+    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+    <jdbc-url>jdbc:postgresql://127.0.0.1/vericap_test</jdbc-url>
+    <user-name>martin</user-name>
+    <libraries>
+      <library>
+        <url>jar://$USER_HOME$/.RubyMine31/config/jdbc-drivers/postgresql-9.0-801.jdbc4.jar!/</url>
+      </library>
+    </libraries>
+  </data-source>
+  <data-source source="LOCAL" name="Rails vericap: production" product="" version="" jdbc-version="" driver-version="" uuid="8653e21c-d115-4f80-beb7-3a1b8da1c92c">
+    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+    <jdbc-url>jdbc:postgresql://127.0.0.1/vericap_prod</jdbc-url>
+    <user-name>martin</user-name>
+    <libraries>
+      <library>
+        <url>jar://$USER_HOME$/.RubyMine31/config/jdbc-drivers/postgresql-9.0-801.jdbc4.jar!/</url>
+      </library>
+    </libraries>
+  </data-source>
+</component>

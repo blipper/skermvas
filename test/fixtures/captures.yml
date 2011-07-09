@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  url: MyString
+  retrievaldate: 2011-06-26
+  pagemd5: MyString
+  pagepdfurl: MyString
+  pagehtmlurl: MyString
+  pagePNGurl: MyString
+  pagePNGthumbnail: MyString
+
+two:
+  url: MyString
+  retrievaldate: 2011-06-26
+  pagemd5: MyString
+  pagepdfurl: MyString
+  pagehtmlurl: MyString
+  pagePNGurl: MyString
+  pagePNGthumbnail: MyString

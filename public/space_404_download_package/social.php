@@ -1,0 +1,1 @@
+<a href="#"><img src="images/feed.png" width="16" height="16" alt="Subscribe to feed"></a><a href="#"><img src="images/facebook.png" width="16" height="16" alt="Follow us on Facebook"></a><a href="#"><img src="images/twitter.png" width="16" height="16" alt="Follow us on Twitter"></a><a href="#"><img src="images/digg.png" width="16" height="16" alt="Digg this!"></a>

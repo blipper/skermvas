@@ -1,0 +1,16 @@
+common: &common
+  adapter: postgresql
+  username: martin
+  #password: password # from psql setup, see Postgresql
+
+development:
+  <<: *common
+  database: vericap_dev
+
+test:
+  <<: *common
+  database: vericap_test
+
+production:
+  <<: *common
+  database: vericap_prod

@@ -1,0 +1,12 @@
+development:
+  bucket: vericap-dev
+  access_key_id: AKIAJH26DM2XHHIUJ5LQ
+  secret_access_key: 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
+test:
+  bucket: vericap-test
+  access_key_id: AKIAJH26DM2XHHIUJ5LQ
+  secret_access_key: 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
+production:
+  bucket: vericap-prod
+  access_key_id: AKIAJH26DM2XHHIUJ5LQ
+  secret_access_key: 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

@@ -1,0 +1,26 @@
+body {
+	background: url(../images/natural-green/background.jpg) repeat;
+	}
+
+#MastHead {
+	background: url(../images/natural-green/bar.jpg);
+	background-repeat: repeat-x;
+	}
+	
+#MastHeadInner {
+	background: url(../images/logo2.png) top left no-repeat;
+}
+
+#TopBorder {
+	background: url(../images/natural-green/topborder.png) no-repeat;
+}
+
+#BottomBorder {
+	background: url(../images/natural-green/bottomborder.png) no-repeat;
+}
+
+#Container {
+		background: url(../images/natural-green/containerbg.png) repeat-y;
+		position: relative;
+		z-index: 2;
+}

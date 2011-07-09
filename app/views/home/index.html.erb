@@ -1,0 +1,16 @@
+<div id=MastHead class="pngfix">
+  <div id="MastHeadInner" class="pngfix">
+    <div id="Intro">
+      <h1>Simple, Trusted Web Page Capture</h1>
+      <% if flash[:notice] %>
+          <p class="notice"><%= flash[:notice] %></p>
+      <% end %>
+
+      <%= form_tag(new_capture_path, :method=> "get", :action => "new") do %>
+          <%= text_field_tag "url", nil, :size => 57, :autocomplete => "off", :maxlength => 2048, :class=>"populate term", :title => "enter your URL here. e.g. www.nytimes.com" %>
+          <br/>
+          <%= submit_tag("Capture URL", :class => "submit") %>
+      <% end %>
+    </div>
+  </div>
+</div>
