@@ -1,0 +1,16 @@
+[2672:2679:327780601669:INFO:chrome/browser/renderer_host/buffered_resource_handler.cc(210)] To buffer: http://www.ibm.com/us/en/
+[2672:2679:327780602462:INFO:chrome/browser/renderer_host/buffered_resource_handler.cc(142)] Finished buffering http://www.ibm.com/us/en/
+[2672:2690:327781691930:INFO:net/ocsp/nss_ocsp.cc(454)] OCSP create session: host=crl.geotrust.com port=80
+[2672:2690:327781691971:INFO:net/ocsp/nss_ocsp.cc(486)] OCSP create protocol=http path_and_query=/crls/secureca.crl http_request_method=GET timeout=60000
+[2672:2690:327781692013:INFO:net/ocsp/nss_ocsp.cc(434)] URL [http://crl.geotrust.com:80/crls/secureca.crl]
+[2672:2690:327781692082:INFO:net/ocsp/nss_ocsp.cc(576)] OCSP try send and receive
+[2672:2679:327781750853:INFO:chrome/browser/renderer_host/buffered_resource_handler.cc(180)] To buffer: http://www.ibm.com/common/press/newsticker.xml?dojo.preventCache=1310332118727
+[2672:2679:327781751045:INFO:chrome/browser/renderer_host/buffered_resource_handler.cc(142)] Finished buffering http://www.ibm.com/common/press/newsticker.xml?dojo.preventCache=1310332118727
+[2672:2679:327781751723:INFO:chrome/browser/renderer_host/buffered_resource_handler.cc(210)] To buffer: http://www.ibm.com/ibm100/us/en/icons/v17-hp.html?dojo.preventCache=1310332118729
+[2672:2679:327781751793:INFO:chrome/browser/renderer_host/buffered_resource_handler.cc(142)] Finished buffering http://www.ibm.com/ibm100/us/en/icons/v17-hp.html?dojo.preventCache=1310332118729
+[2672:2690:327781873603:INFO:net/ocsp/nss_ocsp.cc(551)] OCSP response  response_code=200 content_type=application/pkix-crl header=HTTP/1.1 200 OK[2672:2690:327781873787:INFO:net/ocsp/nss_ocsp.cc(614)] OCSP free
+[2672:2690:327781873828:INFO:net/ocsp/nss_ocsp.cc(474)] OCSP free session
+[2672:2679:327782484532:INFO:chrome/browser/renderer_host/buffered_resource_handler.cc(210)] To buffer: http://www.ibm.com/us/en/
+[2672:2679:327782484775:INFO:chrome/browser/renderer_host/buffered_resource_handler.cc(142)] Finished buffering http://www.ibm.com/us/en/
+[2672:2679:327782891588:INFO:chrome/browser/renderer_host/buffered_resource_handler.cc(210)] To buffer: http://www.ibm.com/us/en/
+[2672:2679:327782891707:INFO:chrome/browser/renderer_host/buffered_resource_handler.cc(142)] Finished buffering http://www.ibm.com/us/en/
