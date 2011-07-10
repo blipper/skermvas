@@ -45,8 +45,12 @@ class CapturesController < ApplicationController
 
   def capturepagetoimage(url, imagefilename)
     cmdlineurl = Shellwords.escape(url)
-
-    `#{Rails.root}/bin/SaveImage #{cmdlineurl} #{imagefilename}`
+    puts Rails.env
+    if Rails.env.production?
+      FileUtils.cp(Rails.root.to_s+'/bin/template.png',imagefilename)
+    else
+      `#{Rails.root}/bin/SaveImage #{cmdlineurl} #{imagefilename}`
+    end
   end
 
   ACCESS_KEY_ID = 'AKIAJH26DM2XHHIUJ5LQ'
@@ -133,5 +137,4 @@ class CapturesController < ApplicationController
     puts @capture.errors.inspect
     redirect_to @capture
   end
-
 end
