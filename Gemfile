@@ -22,7 +22,7 @@ gem 'url_shortener'
 gem 'rmagick'
 gem 'right_aws'
 gem 'right_http_connection'
-gem 'activesupport'
+
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -36,4 +36,8 @@ gem 'activesupport'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
+end
+
+group :production do
+  gem 'therubyracer-heroku'
 end
