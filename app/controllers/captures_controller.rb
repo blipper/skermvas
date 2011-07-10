@@ -46,7 +46,7 @@ class CapturesController < ApplicationController
   def capturepagetoimage(url, imagefilename)
     cmdlineurl = Shellwords.escape(url)
 
-    `#{Rails.root}/lib/saveimage/SaveImage #{cmdlineurl} #{imagefilename}`
+    `#{Rails.root}/bin/SaveImage #{cmdlineurl} #{imagefilename}`
   end
 
   ACCESS_KEY_ID = 'AKIAJH26DM2XHHIUJ5LQ'

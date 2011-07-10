@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30deb5e8-4016-4872-88a9-7dd2bbfd7cb3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/saveimage/awesomium.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/captures_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/captures_controller.rb" />
     </list>
     <ignored path="vericap.iws" />
@@ -93,7 +94,7 @@
       <file leaf-file-name="captures_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="74" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.74844074">
+            <state line="26" column="16" selection-start="708" selection-end="708" vertical-scroll-proportion="0.062370062">
               <folding />
             </state>
           </provider>
@@ -842,7 +843,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="74" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.74844074">
+        <state line="26" column="16" selection-start="708" selection-end="708" vertical-scroll-proportion="0.062370062">
           <folding />
         </state>
       </provider>
