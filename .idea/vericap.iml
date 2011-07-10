@@ -12,12 +12,6 @@
   <component name="GemRequirementsHolder" version="3">
     <requirement>
       <requirement>
-        <dependency name="activesupport" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
-      </requirement>
-      <source from="Gemfile" />
-    </requirement>
-    <requirement>
-      <requirement>
         <dependency name="coffee-script" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
@@ -73,6 +67,12 @@
     <requirement>
       <requirement>
         <dependency name="therubyracer" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="therubyracer-heroku" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
     </requirement>
@@ -182,6 +182,7 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] right_http_connection (v1.3.0, /usr/local/rvm/gems/ruby-1.9.2-head@global/gems/right_http_connection-1.3.0)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] right_aws (v2.1.0, /usr/local/rvm/gems/ruby-1.9.2-head@global/gems/right_aws-2.1.0)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] fastercsv (v1.5.4, /usr/local/rvm/gems/ruby-1.9.2-head@global/gems/fastercsv-1.5.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] therubyracer-heroku (v0.8.1.pre3, /usr/local/rvm/gems/ruby-1.9.2-head@global/gems/therubyracer-heroku-0.8.1.pre3)" level="application" />
   </component>
 </module>
 
