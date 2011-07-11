@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="30deb5e8-4016-4872-88a9-7dd2bbfd7cb3" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/saveimage/awesomium.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vericap.iml" afterPath="$PROJECT_DIR$/.idea/vericap.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/captures_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/captures_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesomium.log" afterPath="$PROJECT_DIR$/awesomium.log" />
     </list>
@@ -88,7 +86,7 @@
       <file leaf-file-name="captures_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="45" selection-start="63" selection-end="63" vertical-scroll-proportion="0.058708414">
+            <state line="29" column="55" selection-start="872" selection-end="872" vertical-scroll-proportion="0.29549903">
               <folding />
             </state>
           </provider>
@@ -98,15 +96,6 @@
         <entry file="file://$PROJECT_DIR$/config/environment.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="38" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RMagick.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///usr/local/rvm/gems/ruby-1.9.2-head@global/gems/rmagick-2.13.1/lib/RMagick.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1962" column="0" selection-start="61988" selection-end="61988" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -750,20 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="38" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/rvm/gems/ruby-1.9.2-head@global/gems/rmagick-2.13.1/lib/RMagick.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1962" column="0" selection-start="61988" selection-end="61988" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/captures/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="-0.0">
@@ -771,9 +746,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/local/rvm/gems/ruby-1.9.2-head@global/gems/rmagick-2.13.1/lib/RMagick.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="777" selection-end="777" vertical-scroll-proportion="0.704501">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="38" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="45" selection-start="63" selection-end="63" vertical-scroll-proportion="0.058708414">
+        <state line="29" column="55" selection-start="872" selection-end="872" vertical-scroll-proportion="0.29549903">
           <folding />
         </state>
       </provider>

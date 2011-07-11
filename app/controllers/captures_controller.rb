@@ -14,7 +14,7 @@ class CapturesController < ApplicationController
   end
 
   def generatecroppedimage(uuid, imagefilename)
-    img = ImageList.new(imagefilename)
+    img = Magick::ImageList.new(imagefilename)
 
     puts params[:left] + "," + Integer(params[:top]).inspect
     puts params[:width] + "," + params[:height]
@@ -26,8 +26,8 @@ class CapturesController < ApplicationController
   end
 
   def annotateimage(imagefilename,texttoadd)
-    img = ImageList.new(imagefilename)
-    draw = Draw.new
+    img = Magick::ImageList.new(imagefilename)
+    draw = Magick::Draw.new
 
     draw.annotate(img, 0, 0, 0, 0, texttoadd) {self.gravity = Magick::SouthEastGravity}
 
