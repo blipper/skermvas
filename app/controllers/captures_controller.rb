@@ -20,7 +20,8 @@ class CapturesController < ApplicationController
 
     puts params[:left] + "," + Integer(params[:top]).inspect
     puts params[:width] + "," + params[:height]
-    ENV['MAGICK_THREAD_LIMIT=1']
+    ENV['MAGICK_THREAD_LIMIT']=1
+    puts ENV['MAGICK_THREAD_LIMIT']
     crop = img.crop(Integer(params[:left]),Integer(params[:top]),Integer(params[:width]), Integer(params[:height]))
     crop.write(generatecroppedfilename(uuid))
     generatecroppedfilename(uuid)
