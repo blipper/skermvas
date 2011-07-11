@@ -19,7 +19,7 @@ gem 'jquery-rails'
 gem 'url_validator'
 gem 'uuidtools'
 gem 'url_shortener'
-gem 'rmagick'
+gem 'rmagick',:require => 'RMagick'
 gem 'right_aws'
 gem 'right_http_connection'
 

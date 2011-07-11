@@ -54,7 +54,7 @@
     </requirement>
     <requirement>
       <requirement>
-        <dependency name="rmagick" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+        <dependency name="rmagick" version="0" bound="GREATER_OR_EQUAL" lib="RMagick" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
     </requirement>

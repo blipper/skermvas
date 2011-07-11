@@ -1,11 +1,9 @@
 require 'securerandom'
 require 'digest/sha2'
-require 'RMagick'
 require 'net/http'
 
-include Magick
+#include Magick
 
-#noinspection ALL
 class CapturesController < ApplicationController
   def generatefilename(uuid)
     "/tmp/" + uuid + ".png"
