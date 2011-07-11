@@ -4,6 +4,7 @@
     <list default="true" id="30deb5e8-4016-4872-88a9-7dd2bbfd7cb3" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/saveimage/awesomium.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/captures_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/captures_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/awesomium.log" afterPath="$PROJECT_DIR$/awesomium.log" />
     </list>
     <ignored path="vericap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,8 +86,12 @@
       <file leaf-file-name="captures_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="35" selection-start="574" selection-end="574" vertical-scroll-proportion="0.67514676">
-              <folding />
+            <state line="21" column="44" selection-start="502" selection-end="502" vertical-scroll-proportion="0.6164383">
+              <folding>
+                <marker date="1310343255000" expanded="true" signature="141:1394" placeholder=" ... end" />
+                <marker date="1310343255000" expanded="true" signature="356:1359" placeholder=" ... end" />
+                <marker date="1310343255000" expanded="true" signature="1206:1214" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -585,7 +590,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-5" width="1680" height="990" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32799014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819247" sideWeight="0.66552514" order="3" side_tool="false" content_ui="tabs" />
@@ -747,8 +752,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="35" selection-start="574" selection-end="574" vertical-scroll-proportion="0.67514676">
-          <folding />
+        <state line="21" column="44" selection-start="502" selection-end="502" vertical-scroll-proportion="0.6164383">
+          <folding>
+            <marker date="1310343255000" expanded="true" signature="141:1394" placeholder=" ... end" />
+            <marker date="1310343255000" expanded="true" signature="356:1359" placeholder=" ... end" />
+            <marker date="1310343255000" expanded="true" signature="1206:1214" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
