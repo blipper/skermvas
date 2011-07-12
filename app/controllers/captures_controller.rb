@@ -2,8 +2,6 @@ require 'securerandom'
 require 'digest/sha2'
 require 'net/http'
 
-#include Magick
-
 class CapturesController < ApplicationController
   def generatefilename(uuid)
     "/tmp/" + uuid + ".png"
@@ -51,6 +49,12 @@ class CapturesController < ApplicationController
     else
       `#{Rails.root}/bin/SaveImage #{cmdlineurl} #{imagefilename}`
     end
+  end
+
+  def calcdimensions(imgcap,imagefilename)
+    img = Magick::ImageList.new(imagefilename)
+    imgcap.pngwidth = img.columns
+    imgcap.pngheight = img.rows
   end
 
   ACCESS_KEY_ID = 'AKIAJH26DM2XHHIUJ5LQ'
@@ -109,6 +113,9 @@ class CapturesController < ApplicationController
     localimagefilename = generatefilename(@capture.uuid)
 
     capturepagetoimage(@capture.url, localimagefilename)
+    calcdimensions(@capture,localimagefilename)
+    puts @capture.inspect
+
     @fullimageurl = pushtoaws(@capture.uuid,localimagefilename)
     puts @fullimageurl
 
