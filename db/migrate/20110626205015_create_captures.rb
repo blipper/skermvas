@@ -8,6 +8,8 @@ class CreateCaptures < ActiveRecord::Migration
       t.string :pdfurl
       t.string :htmlurl
       t.string :pngurl
+      t.integer :pngwidth
+      t.integer :pngheight
       t.string :pngthumbnailurl
       t.string :publicID
       t.string :shorturl

@@ -20,6 +20,8 @@ ActiveRecord::Schema.define(:version => 20110626205015) do
     t.string   "pdfurl"
     t.string   "htmlurl"
     t.string   "pngurl"
+    t.integer  "pngwidth"
+    t.integer  "pngheight"
     t.string   "pngthumbnailurl"
     t.string   "publicID"
     t.string   "shorturl"

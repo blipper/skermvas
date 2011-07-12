@@ -22,7 +22,7 @@
           <input id=btnCaptureIsnt type=submit name=btnCaptureIsnt value='Not what you expected to see?'/>
         </div>
         <div title="Please select the area of the webpage you wish to capture. You can capture the entire webpage or just crop a smaller section of it. You can share the link to allow third-parties to verify the screen shot.">
-            <img src=<%= @fullimageurl %> alt="There was an error and the image cannot be displayed" id="screenpic" />
+            <img src="<%= @fullimageurl %>" alt='There was an error and the image cannot be displayed' id="screenpic" width=<%= @capture.pngwidth.to_s %> height=<%= @capture.pngheight.to_s %>/>
         </div>
         <br>
             <script>
