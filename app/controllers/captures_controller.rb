@@ -47,14 +47,22 @@ class CapturesController < ApplicationController
   end
 
 
-  def capturepagetoimage(url, imagefilename)
+  def capturepagetoimage(url, imagefilename,uuid)
     cmdlineurl = Shellwords.escape(url)
     puts Rails.env
-    if Rails.env.production?
-      FileUtils.cp(Rails.root.to_s+'/bin/template.png',imagefilename)
-    else
-      `#{Rails.root}/bin/SaveImage #{cmdlineurl} #{imagefilename}`
-    end
+#    if Rails.env.production?
+      #TODO Dirty hack until we get Awesomenium running on Heroku
+      Net::HTTP.start('ec2-184-72-92-153.compute-1.amazonaws.com',3000) { |http|
+        resp = http.get('/sis.json?uuid='+uuid+'&'+'url='+url)
+        mysi = JSON.parse(resp.body)
+        puts mysi.inspect
+        pullfromaws(uuid,imagefilename)
+      }
+    #End Dirty Hack
+
+#    else
+#      `#{Rails.root}/bin/SaveImage #{cmdlineurl} #{imagefilename}`
+#    end
   end
 
   def calcdimensions(imgcap,imagefilename)
@@ -90,7 +98,7 @@ class CapturesController < ApplicationController
         file.write(resp.body)
         }
       }
-    end
+  end
 
 
   def show
@@ -118,7 +126,7 @@ class CapturesController < ApplicationController
 
     localimagefilename = generatefilename(@capture.uuid)
 
-    capturepagetoimage(@capture.url, localimagefilename)
+    capturepagetoimage(@capture.url, localimagefilename,@capture.uuid)
     calcdimensions(@capture,localimagefilename)
     puts @capture.inspect
 
