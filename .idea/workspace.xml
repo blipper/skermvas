@@ -9,7 +9,8 @@
   <component name="ChangeListManager">
     <list default="true" id="30deb5e8-4016-4872-88a9-7dd2bbfd7cb3" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/awesomium.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/captures_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/captures_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
     </list>
     <ignored path="vericap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,10 +89,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="captures_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="captures_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="148" column="74" selection-start="4743" selection-end="4743" vertical-scroll-proportion="0.53216374">
+            <state line="132" column="95" selection-start="4225" selection-end="4225" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="58" selection-start="422" selection-end="422" vertical-scroll-proportion="0.37815127">
               <folding />
             </state>
           </provider>
@@ -132,9 +151,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/javascripts/js/sifr-config.js" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/captures.css.scss" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/config/s3.yml" />
@@ -148,6 +165,8 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/css/sleek-steel-specific.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/css/layout.css" />
         <option value="$PROJECT_DIR$/app/controllers/captures_controller.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -815,16 +834,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/images/logo3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/logo2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/css/sifr.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.3159784">
@@ -914,7 +923,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="74" selection-start="4743" selection-end="4743" vertical-scroll-proportion="0.53216374">
+        <state line="132" column="95" selection-start="4225" selection-end="4225" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="58" selection-start="422" selection-end="422" vertical-scroll-proportion="0.37815127">
           <folding />
         </state>
       </provider>
