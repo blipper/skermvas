@@ -12,14 +12,19 @@ class CapturesController < ApplicationController
   end
 
   def generatecroppedimage(uuid, imagefilename)
-    img = Magick::ImageList.new(imagefilename)
+    #img = Magick::ImageList.new(imagefilename)
 
     puts params[:left] + "," + Integer(params[:top]).inspect
     puts params[:width] + "," + params[:height]
     ENV['MAGICK_THREAD_LIMIT']='1'
     puts ENV['MAGICK_THREAD_LIMIT']
-    crop = img.crop(Integer(params[:left]),Integer(params[:top]),Integer(params[:width]), Integer(params[:height]))
-    crop.write(generatecroppedfilename(uuid))
+    #TODO Fix this dirty exec hack that works around bug in Heroku RMAgick library
+    #crop = img.crop(Integer(params[:left]),Integer(params[:top]),Integer(params[:width]), Integer(params[:height]))'
+    # Use systemt to avoid command line injection
+    # See man page for
+    system('convert',imagefilename,'-crop',params[:width]+'x'+params[:height]+'+'+params[:left]+'+'+params[:top],generatecroppedfilename(uuid))
+    #Like this `convert #{imagefilename} -crop #{params[:width]}x+10+10 #{generatecroppedfilename(uuid)}`
+    #crop.write(generatecroppedfilename(uuid))
     generatecroppedfilename(uuid)
   end
 
@@ -27,6 +32,7 @@ class CapturesController < ApplicationController
     img = Magick::ImageList.new(imagefilename)
     draw = Magick::Draw.new
 
+    #noinspection RubyResolve
     draw.annotate(img, 0, 0, 0, 0, texttoadd) {self.gravity = Magick::SouthEastGravity}
 
 =begin
@@ -63,7 +69,7 @@ class CapturesController < ApplicationController
   USERNAME = 'blipper2000'
   PASSWORD = 'R_d9ddd569836fe5f60f98cf0a9f35d85f'
 
-  def generateAWSurl(keyname)
+  def generate_aws_url(keyname)
     'http://s3.amazonaws.com/'+OURBUCKET+'/'+keyname+'.png'
   end
 
@@ -72,7 +78,7 @@ class CapturesController < ApplicationController
     bucket = s3.bucket(OURBUCKET)
     puts bucket.inspect
     bucket.put(keyname+'.png',File.open(localimagefilename),{},'public-read')
-   return generateAWSurl(keyname)
+   generate_aws_url(keyname)
   end
 
   def pullfromaws(keyname,localimagefilename)
@@ -89,11 +95,11 @@ class CapturesController < ApplicationController
 
   def show
     @capture = Capture.find(params[:id])
-    @fullimageurl = generateAWSurl(@capture.uuid)
-    @croppedimageurl = generateAWSurl(@capture.uuid+'_cropped')
+    @fullimageurl = generate_aws_url(@capture.uuid)
+    @croppedimageurl = generate_aws_url(@capture.uuid+'_cropped')
 
     if params.key?(:cropped)
-      redirect_to generateAWSurl(@capture.uuid+"_cropped")
+      redirect_to generate_aws_url(@capture.uuid+"_cropped")
     end
     puts @capture
   end

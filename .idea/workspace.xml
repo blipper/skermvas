@@ -4,7 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30deb5e8-4016-4872-88a9-7dd2bbfd7cb3" name="Default" comment="" />
+    <list default="true" id="30deb5e8-4016-4872-88a9-7dd2bbfd7cb3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/captures_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/captures_controller.rb" />
+    </list>
     <ignored path="vericap.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,16 +79,7 @@
       <file leaf-file-name="captures_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="15" selection-start="1768" selection-end="1768" vertical-scroll-proportion="0.67324954">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20110626205015_create_captures.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20110626205015_create_captures.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
+            <state line="8" column="63" selection-start="177" selection-end="177" vertical-scroll-proportion="-1.3195691">
               <folding />
             </state>
           </provider>
@@ -184,9 +178,9 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/capture.rb" />
         <option value="$PROJECT_DIR$/app/views/captures/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/captures_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20110712224331_addheightwidth.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20110626205015_create_captures.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/captures_controller.rb" />
       </list>
     </option>
   </component>
@@ -978,14 +972,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20110626205015_create_captures.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
+        <state line="10" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.26929983">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="15" selection-start="1768" selection-end="1768" vertical-scroll-proportion="0.67324954">
+        <state line="8" column="63" selection-start="177" selection-end="177" vertical-scroll-proportion="-1.3195691">
           <folding />
         </state>
       </provider>
