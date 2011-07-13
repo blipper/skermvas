@@ -146,13 +146,13 @@ class CapturesController < ApplicationController
     puts @capture.inspect
     authorize = UrlShortener::Authorize.new USERNAME, PASSWORD
     client = UrlShortener::Client.new(authorize)
-    shorten = client.shorten('http://www.vericap.com/'+ captures_path + '?uuid=' + @capture.uuid) # => UrlShortener::Response::Shorten object
+    shorten = client.shorten('http://www.skermvas.com'+ captures_path + '?uuid=' + @capture.uuid) # => UrlShortener::Response::Shorten object
     @capture.shorturl = shorten.urls
 
     localimagefilename = generatefilename(@capture.uuid)
     pullfromaws(@capture.uuid,localimagefilename)
     generatecroppedimage(@capture.uuid,localimagefilename)
-    annotateimage(generatecroppedfilename(@capture.uuid),"VeriCap - Verify at " + @capture.shorturl)
+    annotateimage(generatecroppedfilename(@capture.uuid),"Skermvas - Verify at " + @capture.shorturl)
     @croppedimageurl = pushtoaws(@capture.uuid+'_cropped',generatecroppedfilename(@capture.uuid))
     @capture.save
     puts @capture.errors.inspect
