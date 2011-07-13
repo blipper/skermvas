@@ -10,7 +10,6 @@
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
-  <%= google_analytics_js %>
 </head>
 <body class="yui-skin-sam">
 
@@ -59,5 +58,6 @@
 </div>
 
 <div id="BottomBorder" class="pngfix"></div>
+<%= render :partial => 'layouts/ga' if Rails.env == 'production' %>
 </body>
 </html>
