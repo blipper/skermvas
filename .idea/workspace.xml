@@ -88,19 +88,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="captures_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="captures_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="67" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.0">
+            <state line="148" column="74" selection-start="4743" selection-end="4743" vertical-scroll-proportion="0.53216374">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/captures/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="4" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.063025214">
+            <state line="34" column="90" selection-start="2701" selection-end="2701" vertical-scroll-proportion="-12.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -882,13 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="17" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
@@ -896,16 +898,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/captures/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="67" selection-start="3432" selection-end="3432" vertical-scroll-proportion="0.0">
+        <state line="34" column="90" selection-start="2701" selection-end="2701" vertical-scroll-proportion="-12.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/captures/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="4" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.063025214">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="74" selection-start="4743" selection-end="4743" vertical-scroll-proportion="0.53216374">
           <folding />
         </state>
       </provider>

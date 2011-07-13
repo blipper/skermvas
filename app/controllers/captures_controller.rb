@@ -146,7 +146,7 @@ class CapturesController < ApplicationController
     puts @capture.inspect
     authorize = UrlShortener::Authorize.new USERNAME, PASSWORD
     client = UrlShortener::Client.new(authorize)
-    shorten = client.shorten('http://www.skermvas.com'+ captures_path + '?uuid=' + @capture.uuid) # => UrlShortener::Response::Shorten object
+    shorten = client.shorten('http://www.skermvas.com'+ captures_path + '/' + @capture.uuid) # => UrlShortener::Response::Shorten object
     @capture.shorturl = shorten.urls
 
     localimagefilename = generatefilename(@capture.uuid)
