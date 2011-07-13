@@ -12,19 +12,19 @@ class CapturesController < ApplicationController
   end
 
   def generatecroppedimage(uuid, imagefilename)
-    #img = Magick::ImageList.new(imagefilename)
+    img = Magick::ImageList.new(imagefilename)
 
     puts params[:left] + "," + Integer(params[:top]).inspect
     puts params[:width] + "," + params[:height]
     ENV['MAGICK_THREAD_LIMIT']='1'
     puts ENV['MAGICK_THREAD_LIMIT']
     #TODO Fix this dirty exec hack that works around bug in Heroku RMAgick library
-    #crop = img.crop(Integer(params[:left]),Integer(params[:top]),Integer(params[:width]), Integer(params[:height]))'
+    crop = img.crop(Integer(params[:left]),Integer(params[:top]),Integer(params[:width]), Integer(params[:height]))
     # Use systemt to avoid command line injection
     # See man page for
-    system('convert',imagefilename,'-crop',params[:width]+'x'+params[:height]+'+'+params[:left]+'+'+params[:top],generatecroppedfilename(uuid))
+    #system('convert',imagefilename,'-crop',params[:width]+'x'+params[:height]+'+'+params[:left]+'+'+params[:top],generatecroppedfilename(uuid))
     #Like this `convert #{imagefilename} -crop #{params[:width]}x+10+10 #{generatecroppedfilename(uuid)}`
-    #crop.write(generatecroppedfilename(uuid))
+    crop.write(generatecroppedfilename(uuid))
     generatecroppedfilename(uuid)
   end
 
