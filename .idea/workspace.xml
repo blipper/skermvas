@@ -9,7 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="30deb5e8-4016-4872-88a9-7dd2bbfd7cb3" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/awesomium.log" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/layouts/partial_ga.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_ga.html.erb" />
     </list>
     <ignored path="vericap.iws" />
     <ignored path=".idea/workspace.xml" />
