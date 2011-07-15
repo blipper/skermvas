@@ -32,7 +32,7 @@
     <!-- <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:comments href="example.com" num_posts="2" width="500"></fb:comments> -->
     <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:comments href="<%= @capture.shorturl %>" num_posts="2" width="300"></fb:comments>
 
-    <h2>Embed via <a href="<%= @capture.shorturl+'?cropped=1' %>"><%= @capture.shorturl+'?cropped=1'  %><a></h2>
+    <h2>Embed via <a href="<%= @capture.shorturl + '?cropped=1' %>"><%= @capture.shorturl + '?cropped=1'  %><a></h2>
     <%= link_to "Capture another page",root_path %>
   </div>
   <div id="main">

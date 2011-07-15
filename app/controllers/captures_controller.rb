@@ -24,7 +24,7 @@ class CapturesController < ApplicationController
     # See man page for
     system('convert',imagefilename,'-crop',params[:width]+'x'+params[:height]+'+'+params[:left]+'+'+params[:top],generatecroppedfilename(uuid))
     #Like this `convert #{imagefilename} -crop #{params[:width]}x+10+10 #{generatecroppedfilename(uuid)}`
-    crop.write(generatecroppedfilename(uuid))
+    #crop.write(generatecroppedfilename(uuid))
     generatecroppedfilename(uuid)
   end
 
