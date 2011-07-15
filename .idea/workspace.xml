@@ -10,7 +10,6 @@
     <list default="true" id="30deb5e8-4016-4872-88a9-7dd2bbfd7cb3" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/awesomium.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/captures_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/captures_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/captures/show.html.erb" afterPath="$PROJECT_DIR$/app/views/captures/show.html.erb" />
     </list>
     <ignored path="vericap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,7 +91,7 @@
       <file leaf-file-name="captures_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="5" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.33257404">
+            <state line="111" column="25" selection-start="3715" selection-end="3715" vertical-scroll-proportion="0.35079727">
               <folding />
             </state>
           </provider>
@@ -101,7 +100,7 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/captures/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="92" selection-start="2703" selection-end="2703" vertical-scroll-proportion="-21.25">
+            <state line="34" column="49" selection-start="2660" selection-end="2660" vertical-scroll-proportion="-21.25">
               <folding />
             </state>
           </provider>
@@ -785,14 +784,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/captures/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="92" selection-start="2703" selection-end="2703" vertical-scroll-proportion="-21.25">
+        <state line="34" column="49" selection-start="2660" selection-end="2660" vertical-scroll-proportion="-21.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="5" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.33257404">
+        <state line="111" column="25" selection-start="3715" selection-end="3715" vertical-scroll-proportion="0.35079727">
           <folding />
         </state>
       </provider>

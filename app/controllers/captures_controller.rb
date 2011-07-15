@@ -109,7 +109,7 @@ class CapturesController < ApplicationController
     if params.key?(:cropped)
       redirect_to generate_aws_url(@capture.uuid+"_cropped")
     end
-    puts @capture
+    puts @capture.inspect
   end
 
   def new
