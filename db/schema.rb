@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110626205015) do
+ActiveRecord::Schema.define(:version => 20110712224331) do
 
   create_table "captures", :id => false, :force => true do |t|
     t.string   "uuid",            :limit => 36
@@ -20,13 +20,13 @@ ActiveRecord::Schema.define(:version => 20110626205015) do
     t.string   "pdfurl"
     t.string   "htmlurl"
     t.string   "pngurl"
-    t.integer  "pngwidth"
-    t.integer  "pngheight"
     t.string   "pngthumbnailurl"
     t.string   "publicID"
     t.string   "shorturl"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "pngwidth"
+    t.integer  "pngheight"
   end
 
 end

@@ -1,19 +1,10 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
 
-one:
-  url: MyString
-  retrievaldate: 2011-06-26
-  pagemd5: MyString
-  pagepdfurl: MyString
-  pagehtmlurl: MyString
-  pagePNGurl: MyString
-  pagePNGthumbnail: MyString
-
-two:
-  url: MyString
-  retrievaldate: 2011-06-26
-  pagemd5: MyString
-  pagepdfurl: MyString
-  pagehtmlurl: MyString
-  pagePNGurl: MyString
-  pagePNGthumbnail: MyString
+complete:
+  uuid: '66d79a7f-2e5c-42e4-9ece-8b2cafe91416'
+  url: 'http://www.ibm.com'
+  retrievaldate: 2011-07-12
+  sha2: '73d93c11f68f8577c68babf10237bb1e2e0475aefe351fd3766e52de2af03e76'
+  pngheight: 1030
+  pngwidth: 868
+  shorturl: 'http://bit.ly/p22KHs'
