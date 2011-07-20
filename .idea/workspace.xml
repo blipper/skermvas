@@ -8,61 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30deb5e8-4016-4872-88a9-7dd2bbfd7cb3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/js/_sifr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/js/sifr-config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/sifr.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/awesomium.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/flash/bookman_old_style_bold_italic.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/flash/current.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/flash/gill_sans_mt.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/flash/ipap_mincho.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/flash/nevis.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/flash/rockwell.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/flash/verdana.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/dark/background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/dark/bottomborder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/dark/containerbg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/dark/topborder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/natural-blue/background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/natural-blue/bar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/natural-blue/bottomborder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/natural-blue/containerbg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/natural-blue/topborder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/natural-green/background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/natural-green/bar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/natural-green/bottomborder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/natural-green/containerbg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/natural-green/topborder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/natural-indulge/background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/natural-indulge/bar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/natural-indulge/bottomborder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/natural-indulge/containerbg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/natural-indulge/topborder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/natural-stone/background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/natural-stone/bar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/natural-stone/bottomborder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/natural-stone/containerbg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/natural-stone/topborder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/sleek-green/bar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/sleek-green/bottomborder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/sleek-green/containerbg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/sleek-green/topborder.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vericap.iml" afterPath="$PROJECT_DIR$/.idea/vericap.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/layout.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/css/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/sleek-steel.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/css/sleek-steel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/text.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/css/text.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/captures_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/captures_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/capture.rb" afterPath="$PROJECT_DIR$/app/models/capture.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/captures/show.html.erb" afterPath="$PROJECT_DIR$/app/views/captures/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20110626205015_create_captures.rb" afterPath="$PROJECT_DIR$/db/migrate/20110626205015_create_captures.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20110712224331_addheightwidth.rb" afterPath="$PROJECT_DIR$/db/migrate/20110712224331_addheightwidth.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/captures.yml" afterPath="$PROJECT_DIR$/test/fixtures/captures.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/functional/captures_controller_test.rb" afterPath="$PROJECT_DIR$/test/functional/captures_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/functional/home_controller_test.rb" afterPath="$PROJECT_DIR$/test/functional/home_controller_test.rb" />
     </list>
     <ignored path="vericap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -135,10 +81,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="captures_controller_test.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="captures_controller_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/functional/captures_controller_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="473" selection-end="473" vertical-scroll-proportion="0.21505377">
+            <state line="22" column="138" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -180,10 +126,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="captures_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="captures_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="171" column="60" selection-start="5847" selection-end="5847" vertical-scroll-proportion="-2.66">
+            <state line="170" column="86" selection-start="5786" selection-end="5786" vertical-scroll-proportion="0.4980315">
               <folding />
             </state>
           </provider>
@@ -1167,13 +1113,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="60" selection-start="5847" selection-end="5847" vertical-scroll-proportion="-2.66">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1181,9 +1120,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/home_controller_test.rb">
+    <entry file="file://$PROJECT_DIR$/test/functional/captures_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
+        <state line="22" column="138" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1195,9 +1134,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/captures_controller_test.rb">
+    <entry file="file://$PROJECT_DIR$/test/functional/home_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="473" selection-end="473" vertical-scroll-proportion="0.21505377">
+        <state line="12" column="29" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="170" column="86" selection-start="5786" selection-end="5786" vertical-scroll-proportion="0.4980315">
           <folding />
         </state>
       </provider>
