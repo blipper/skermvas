@@ -14,10 +14,10 @@ class CapturesController < ApplicationController
   def generatecroppedimage(uuid, imagefilename)
     #img = Magick::ImageList.new(imagefilename)
 
-    puts params[:left] + "," + Integer(params[:top]).inspect
-    puts params[:width] + "," + params[:height]
+    logger.debug params[:left] + "," + Integer(params[:top]).inspect
+    logger.debug params[:width] + "," + params[:height]
     #ENV['MAGICK_THREAD_LIMIT']='1'
-    #puts ENV['MAGICK_THREAD_LIMIT']
+    #logger.debug ENV['MAGICK_THREAD_LIMIT']
     #TODO Fix this dirty exec hack that works around bug in Heroku RMAgick library
     #crop = img.crop(Integer(params[:left]),Integer(params[:top]),Integer(params[:width]), Integer(params[:height]))
     # Use systemt to avoid command line injection
@@ -130,7 +130,7 @@ class CapturesController < ApplicationController
     if params.key?(:cropped)
       redirect_to generate_aws_url(@capture.uuid+"_cropped")
     end
-    puts @capture.inspect
+    logger.debug @capture.inspect
   end
 
   def new
@@ -156,13 +156,13 @@ class CapturesController < ApplicationController
     @fullimageurl = pushtoaws(@capture.uuid,localimagefilename)
     logger.debug @fullimageurl
 
-    @capture.retrievaldate = Time.new
+    @capture.retrievaldatetime = Time.new
     @capture.sha2 = Digest::SHA2.file(localimagefilename).hexdigest
     File.delete(localimagefilename)
 
     if @capture.save
       session[:capture] = @capture
-      puts session[:capture].inspect
+      logger.debug session[:capture].inspect
     else
       raise 'Problem saving a capture ' + @capture.errors.inspect
     end
@@ -184,7 +184,7 @@ class CapturesController < ApplicationController
     annotateimage(croppedimagefilename,"Skermvas - Verify at " + @capture.shorturl)
     @croppedimageurl = pushtoaws(@capture.uuid+'_cropped',croppedimagefilename)
     @capture.save
-    puts @capture.errors.inspect
+    logger.debug @capture.errors.inspect
     redirect_to @capture
   end
 end

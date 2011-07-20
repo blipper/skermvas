@@ -11,7 +11,6 @@ class CreateCaptures < ActiveRecord::Migration
       t.string :pngthumbnailurl
       t.string :publicID
       t.string :shorturl
-      t.timestamps
     end
   end
 end

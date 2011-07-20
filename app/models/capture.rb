@@ -4,6 +4,6 @@ class Capture < ActiveRecord::Base
   validates_url :url, :allow_blank => false
   validates :sha2, :presence => true
   validates :uuid, :presence => true
-  validates :retrievaldate,:presence =>true
+  validates :retrievaldatetime,:presence =>true
   set_primary_key :uuid
 end

@@ -1,10 +1,9 @@
-<?xml version="1.0"?><component name="dataSourceStorage">
+<?xml version="1.0" encoding="UTF-8"?><component name="dataSourceStorage">
   <data-source source="LOCAL" name="Rails vericap: development" product="PostgreSQL" version="8.4.8" jdbc-version="4.0" driver-version="PostgreSQL 9.0 JDBC4 (build 801)" uuid="102955f7-3423-410b-8663-185e48b7d208">
     <identifier-quote-string>"</identifier-quote-string>
     <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-    <jdbc-url>jdbc:postgresql://127.0.0.1/vericap_dev</jdbc-url>
+    <jdbc-url>jdbc:postgresql:vericap_dev</jdbc-url>
     <user-name>martin</user-name>
-    <user-password>dfd9dfdfdfc4dfd9dfdadfc5dfde</user-password>
     <libraries>
       <library>
         <url>jar://$USER_HOME$/.RubyMine31/config/jdbc-drivers/postgresql-9.0-801.jdbc4.jar!/</url>
@@ -34,7 +33,7 @@
   <data-source source="LOCAL" name="Rails vericap: test" product="PostgreSQL" version="8.4.8" jdbc-version="4.0" driver-version="PostgreSQL 9.0 JDBC4 (build 801)" uuid="fc94c304-39a4-4e88-af19-d3ec2d387571">
     <identifier-quote-string>"</identifier-quote-string>
     <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-    <jdbc-url>jdbc:postgresql://127.0.0.1/vericap_test</jdbc-url>
+    <jdbc-url>jdbc:postgresql:vericap_test</jdbc-url>
     <user-name>martin</user-name>
     <user-password>dfd9dfdfdfc4dfd9dfdadfc5dfde</user-password>
     <libraries>
@@ -45,7 +44,7 @@
     <table name="captures" schema="public" catalog="" type="TABLE">
       <column name="uuid" sqlType="varchar" length="36" precision="0" nullable="true" jdbcType="12" />
       <column name="url" sqlType="varchar" length="255" precision="0" nullable="true" jdbcType="12" />
-      <column name="retrievaldate" sqlType="date" length="13" precision="0" nullable="true" jdbcType="91" />
+      <column name="retrievaldatetime" sqlType="timestamp" length="29" precision="6" nullable="true" jdbcType="93" />
       <column name="sha2" sqlType="varchar" length="255" precision="0" nullable="true" jdbcType="12" />
       <column name="pdfurl" sqlType="varchar" length="255" precision="0" nullable="true" jdbcType="12" />
       <column name="htmlurl" sqlType="varchar" length="255" precision="0" nullable="true" jdbcType="12" />
@@ -57,6 +56,8 @@
       <column name="updated_at" sqlType="timestamp" length="29" precision="6" nullable="true" jdbcType="93" />
       <column name="pngwidth" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4" />
       <column name="pngheight" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4" />
+      <column name="pngthumbnailwidth" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4" />
+      <column name="pngthumbnailheight" sqlType="int4" length="10" precision="0" nullable="true" jdbcType="4" />
     </table>
     <table name="schema_migrations" schema="public" catalog="" type="TABLE">
       <column name="version" sqlType="varchar" length="255" precision="0" nullable="false" jdbcType="12" />
@@ -65,7 +66,7 @@
   </data-source>
   <data-source source="LOCAL" name="Rails vericap: production" product="" version="" jdbc-version="" driver-version="" uuid="8653e21c-d115-4f80-beb7-3a1b8da1c92c">
     <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-    <jdbc-url>jdbc:postgresql://127.0.0.1/vericap_prod</jdbc-url>
+    <jdbc-url>jdbc:postgresql:vericap_prod</jdbc-url>
     <user-name>martin</user-name>
     <libraries>
       <library>

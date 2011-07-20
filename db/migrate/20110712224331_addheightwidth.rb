@@ -1,7 +1,9 @@
 class Addheightwidth < ActiveRecord::Migration
   def up
-    add_column "captures", "pngwidth", :integer
-    add_column "captures", "pngheight", :integer
+    change_table :captures do |t|
+      t.add :pngwidth, :integer
+      t.add :pngheight, :integer
+    end
   end
 
   def down

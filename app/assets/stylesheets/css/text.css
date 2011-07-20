@@ -1,5 +1,6 @@
 /*LINKS*/
 
+
 a:visited { color: #4b4b4a; font-weight: normal; text-decoration: none;}
 
 a:link { color: #4b4b4a; font-weight: normal; text-decoration: none;}
@@ -40,8 +41,19 @@ a.homepage:link, a.homepage:visited {
 
 
 /* GENERAL */
+@font-face {
+    font-family: 'Matiz';
+    src: url('../fonts/Matiz-webfont.eot');
+    src: url('../fonts/Matiz-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Matiz-webfont.woff') format('woff'),
+         url('../fonts/Matiz-webfont.ttf') format('truetype'),
+         url('../fonts/Matiz-webfont.svg#MatizRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
-body { font-family: �Helvetica Neue�, Helvetica, Arial, Calibri, Frutiger, sans-serif; color: #4b4b4a; font-size: 13px; line-height: 1.6em /* 20px */; }
+}
+
+body { font-family: "Matiz", Helvetica, Arial, Calibri, Frutiger, sans-serif; color: #4b4b4a; font-size: 13px; line-height: 1.6em /* 20px */; }
 
 p, ul, blockquote, pre, td, th, label { margin: 0; font-size: 1em; line-height: 1.6em; margin-bottom: 1.6em; }
 
