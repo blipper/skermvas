@@ -3,7 +3,8 @@ require 'test_helper'
 class CaptureTest < ActiveSupport::TestCase
 
   test "Make sure you can't save empty capture" do
-    capture = Capture.new
+    capture = Capture.new()
+    capture.url = "www.google.com"
     assert !capture.save, "Saved empty capture!!"
   end
 
@@ -28,6 +29,14 @@ class CaptureTest < ActiveSupport::TestCase
     capture = captures(:complete)
     capture.url = 'htt:/fas..fd'
     assert !capture.save, "Capture with invalid url saved!"
+  end
+
+
+  test "test full image URL" do
+    capture = Capture.new()
+    capture.url = "www.google.com"
+    capture.fullimageurl
+    assert !capture.save, "Saved empty capture!!"
   end
 
 

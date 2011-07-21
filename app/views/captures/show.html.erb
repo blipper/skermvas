@@ -8,11 +8,11 @@
     <h2>Capture Details</h2>
     <div title ="This is the URL of the image displayed">Source URL: <%= link_to @capture.url, @capture.url %><br/></div>
     <div title='This is the date and time of the retrieval'>Source URL Retrieval Date: <%= @capture.retrievaldatetime %><br/></div>
-    <div title='This is the full page PNG that you can use to verify that a cropped image has not been tampered with'>Page PNG: Click <%= link_to "here",@fullimageurl %> to download</div>
+    <div title='This is the full page PNG that you can use to verify that a cropped image has not been tampered with'>Page PNG: Click <%= link_to "here",@capture.fullimageurl %> to download</div>
     <div title='<%= @capture.sha2 %> . This is the SHA256 has of the full page PNG.  You can verify that the image has not been tampered by using a tool like http://hash.online-convert.com/sha256-generator'>Full Page PNG SHA2<br/></div>
 
 
-    <h2>Share <a href="<%= @capture.shorturl %>"><%= @capture.shorturl  %><a></h2>
+    <h2>Share <a href="<%= @capture.shorturl %>"><%= @capture.shorturl  %></a></h2>
 
     <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:send href="<%= @capture.shorturl %>" font="verdana"></fb:send>
     <a href="http://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
@@ -35,10 +35,10 @@
     <!-- <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:comments href="example.com" num_posts="2" width="500"></fb:comments> -->
     <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:comments href="<%= @capture.shorturl %>" num_posts="2" width="300"></fb:comments>
 
-    <h2>Embed via <a href="<%= @capture.shorturl + '?cropped=1' %>"><%= @capture.shorturl + '?cropped=1'  %><a></h2>
+    <h2>Embed via <a href="<%= @capture.croppedshorturl %>"><%= @capture.croppedshorturl %></a></h2>
     <%= link_to "Capture another page",root_path %>
   </div>
   <div id="main">
-    <div id='croppedpng' title='This is the cropped image screenshot'><img src="<%= @croppedimageurl%>"  alt="There was an error and the image cannot be displayed" id="screenpic" /></div>
+    <div id='croppedpng' title='This is the cropped image screenshot'><img src="<%= @capture.croppedimageurl%>"  alt="There was an error and the image cannot be displayed" id="screenpic" /></div>
   </div>
 </div>

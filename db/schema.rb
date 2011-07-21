@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110720213437) do
+ActiveRecord::Schema.define(:version => 20110721054411) do
 
   create_table "captures", :id => false, :force => true do |t|
     t.string   "uuid",               :limit => 36
@@ -29,6 +29,7 @@ ActiveRecord::Schema.define(:version => 20110720213437) do
     t.integer  "pngheight"
     t.integer  "pngthumbnailwidth"
     t.integer  "pngthumbnailheight"
+    t.string   "croppedshorturl"
   end
 
 end
