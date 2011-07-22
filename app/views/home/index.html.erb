@@ -1,3 +1,14 @@
+<div id=ChromeScreenshotExtension><a href="/extensions/screenshot.crx">Install Skermvas Chrome extension for easier capture and to capture private webpages</a>
+<script>
+  $("a").click(function () {
+  $("a").fadeOut("slow");
+  });
+  var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+  if ( !is_chrome ) {
+      $('#ChromeScreenshotExtension').hide();
+  }
+</script>
+</div>
 <div id=MastHead class="pngfix">
   <div id="MastHeadInner" class="pngfix">
     <div id="Intro">

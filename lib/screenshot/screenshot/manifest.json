@@ -1,0 +1,11 @@
+{
+  "name": "Skermvas Page Capture",
+  "version": "1.0",
+  "description": "www.skermvas.com - This extension allows user to capture and publish currently selected webpage without having to manually enter current URL",
+  "background_page": "background.html",
+  "browser_action": {
+     "default_icon": "camera.png",
+     "default_title": "Capture skermvas screenshot!"
+   },
+  "permissions": ["tabs"]
+}
