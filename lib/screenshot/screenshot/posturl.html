@@ -1,12 +1,27 @@
 <html>
+<script>
+    function gup( name )
+    {
+      name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+      var regexS = "[\\?&]"+name+"=([^&#]*)";
+      var regex = new RegExp( regexS );
+      var results = regex.exec( window.location.href );
+      if( results == null )
+        return "";
+      else
+        return results[1];
+    }
+</script>
 <head>
-<form action="http://www.skermvas.com/captures" method="post">
+<form name="skermvasForm" action="http://www.skermvas.com/captures" method="post">
     <input type="hidden" name="url"/>
     <input type="hidden" names="cookiejar"/>
     <input type="submit" name="commit" value="Capture URL"/>
 </form>
 <script>
-
+    document.skermvasForm.elements["url"].value = gup("url");
+    alert(gup("url"))
+    document.skermvasForm.submit();
 </script>
 </head>
 <body>

@@ -19,7 +19,7 @@ class Capture < ActiveRecord::Base
   end
 
 
-  def capturepage(cookiejar)
+  def capturepage
     localimagefilename = generatefilename(uuid)
     capturepagetoimage(url, localimagefilename,uuid)
     calcdimensions(self,localimagefilename)
