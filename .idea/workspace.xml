@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="30deb5e8-4016-4872-88a9-7dd2bbfd7cb3" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/awesomium.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/captures_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/captures_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/screenshot/screenshot/posturl.html" afterPath="$PROJECT_DIR$/lib/screenshot/screenshot/posturl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vericap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posturl.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="posturl.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/screenshot/screenshot/posturl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="23" selection-start="256" selection-end="256" vertical-scroll-proportion="0.33259425">
+            <state line="8" column="25" selection-start="238" selection-end="238" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
@@ -125,10 +124,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20110722232326_addcookiejar.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="20110722232326_addcookiejar.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/migrate/20110722232326_addcookiejar.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="29" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+            <state line="3" column="40" selection-start="122" selection-end="122" vertical-scroll-proportion="0.094736844">
               <folding />
             </state>
           </provider>
@@ -1226,13 +1225,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20110722232326_addcookiejar.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="40" selection-start="464" selection-end="464" vertical-scroll-proportion="0.31578946">
@@ -1256,7 +1248,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/screenshot/screenshot/posturl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="256" selection-end="256" vertical-scroll-proportion="0.33259425">
+        <state line="8" column="25" selection-start="238" selection-end="238" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20110722232326_addcookiejar.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="40" selection-start="122" selection-end="122" vertical-scroll-proportion="0.094736844">
           <folding />
         </state>
       </provider>
