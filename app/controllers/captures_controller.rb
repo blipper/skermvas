@@ -14,7 +14,7 @@ class CapturesController < ApplicationController
   def new
     @capture = Capture.new
     @capture.url = params[:url]
-    @capture.cookiesjson
+    @capture.cookiejar = params[:cookiejar]
 
     # Test the URL for correctness
     @capture.valid?
