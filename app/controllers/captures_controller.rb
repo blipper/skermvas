@@ -14,6 +14,7 @@ class CapturesController < ApplicationController
   def new
     @capture = Capture.new
     @capture.url = params[:url]
+    @capture.cookiesjson
 
     # Test the URL for correctness
     @capture.valid?
@@ -36,6 +37,11 @@ class CapturesController < ApplicationController
   end
 
   RELAY_ATTACK_MESSAGE = 'It is not permitted to try to capture the same image again.  Please reload the site you wish to capture.'
+
+  def create
+    # Handle Extension Create Case
+    new
+  end
 
   def update
     @capture = session[:capture]

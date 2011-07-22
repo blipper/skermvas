@@ -1,7 +1,9 @@
-<div id=ChromeScreenshotExtension><a href="/extensions/screenshot.crx">Install Skermvas Chrome extension for easier capture and to capture private webpages</a>
+<div id=ChromeScreenshotExtension><a id=ChromeScreenshotExtensionLink href="/extensions/screenshot.crx">Install Skermvas Chrome extension for easier capture and to capture private webpages</a>
 <script>
-  $("a").click(function () {
-  $("a").fadeOut("slow");
+  detectExtension('icmmfchdgfpkondfeholnlakhplnjnfg', function(detected){if ( detected ) {$('#ChromeScreenshotExtension').hide()}});
+
+  $("#ChromeScreenshotExtensionLink").click(function () {
+  $("#ChromeScreenshotExtensionLink").fadeOut("slow");
   });
   var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
   if ( !is_chrome ) {

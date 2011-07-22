@@ -7,3 +7,16 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+
+function detectExtension(extensionId, callback) {
+        var img;
+        img = new Image();
+        img.src = "chrome-extension://" + extensionId + "/camera.png";
+        img.onload = function() {
+                callback(true);
+        };
+        img.onerror = function() {
+                callback(false);
+        };
+}

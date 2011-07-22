@@ -7,5 +7,5 @@
      "default_icon": "camera.png",
      "default_title": "Capture skermvas screenshot!"
    },
-  "permissions": ["tabs"]
+  "permissions": ["tabs", "cookies", "http://*/*", "https://*/*"]
 }
