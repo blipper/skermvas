@@ -41,6 +41,7 @@ class CapturesController < ApplicationController
   def create
     # Handle Extension Create Case
     new
+    render :action=> "new"
   end
 
   def update
