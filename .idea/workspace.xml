@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="30deb5e8-4016-4872-88a9-7dd2bbfd7cb3" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/awesomium.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/captures_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/captures_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/screenshot/screenshot/posturl.html" afterPath="$PROJECT_DIR$/lib/screenshot/screenshot/posturl.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/screenshot/screenshot/screenshot.js" afterPath="$PROJECT_DIR$/lib/screenshot/screenshot/screenshot.js" />
     </list>
@@ -93,25 +92,7 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/captures/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="65" selection-start="1881" selection-end="1881" vertical-scroll-proportion="-0.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/captures/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="47" selection-start="551" selection-end="551" vertical-scroll-proportion="-2.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="screenshot.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/screenshot/screenshot/screenshot.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="56" selection-start="2300" selection-end="2300" vertical-scroll-proportion="0.0">
+            <state line="21" column="65" selection-start="1881" selection-end="1881" vertical-scroll-proportion="-1.5416666">
               <folding />
             </state>
           </provider>
@@ -120,16 +101,16 @@
       <file leaf-file-name="posturl.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/screenshot/screenshot/posturl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="38" selection-start="236" selection-end="236" vertical-scroll-proportion="-4.375">
+            <state line="20" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="-12.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="captures_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="captures_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="51" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.75789475">
+            <state line="38" column="60" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -153,19 +134,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="capture.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="capture.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/capture.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="41" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="capture_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unit/capture_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="80" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
+            <state line="34" column="49" selection-start="917" selection-end="917" vertical-scroll-proportion="0.4777328">
               <folding />
             </state>
           </provider>
@@ -201,9 +173,9 @@
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20110722232326_addcookiejar.rb" />
         <option value="$PROJECT_DIR$/app/models/capture.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/captures_controller.rb" />
         <option value="$PROJECT_DIR$/lib/screenshot/screenshot/posturl.html" />
         <option value="$PROJECT_DIR$/lib/screenshot/screenshot/screenshot.js" />
-        <option value="$PROJECT_DIR$/app/controllers/captures_controller.rb" />
       </list>
     </option>
   </component>
@@ -1090,8 +1062,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-18" y="35" width="1678" height="961" extended-state="0" />
-    <editor active="true" />
+    <frame x="47" y="24" width="1678" height="961" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275968" sideWeight="0.668187" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1102,7 +1074,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20344192" sideWeight="0.6420664" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4458381" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35793358" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35793358" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1201,51 +1173,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/capture_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="80" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/capture.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="41" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/screenshot/screenshot/screenshot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="56" selection-start="2300" selection-end="2300" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="22" selection-start="335" selection-end="335" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/screenshot/screenshot/posturl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="38" selection-start="236" selection-end="236" vertical-scroll-proportion="-4.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/captures/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="47" selection-start="551" selection-end="551" vertical-scroll-proportion="-2.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/captures/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="65" selection-start="1881" selection-end="1881" vertical-scroll-proportion="-0.75">
           <folding />
         </state>
       </provider>
@@ -1266,7 +1196,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="51" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.75789475">
+        <state line="38" column="60" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screenshot/screenshot/posturl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="-12.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screenshot/screenshot/screenshot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.031578947">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/captures/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/captures/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="65" selection-start="1881" selection-end="1881" vertical-scroll-proportion="-1.5416666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/capture_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="73" selection-start="926" selection-end="926" vertical-scroll-proportion="0.91093117">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/capture.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="49" selection-start="917" selection-end="917" vertical-scroll-proportion="0.4777328">
           <folding />
         </state>
       </provider>
