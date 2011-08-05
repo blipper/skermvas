@@ -21,7 +21,7 @@
 #define BIGREQS 1
 
 /* Default font path */
-#define COMPILEDDEFAULTFONTPATH "/usr/share/fonts/X11/misc/,/usr/share/fonts/X11/TTF/,/usr/share/fonts/X11/OTF/,/usr/share/fonts/X11/Type1/,/usr/share/fonts/X11/100dpi/,/usr/share/fonts/X11/75dpi/"
+#define COMPILEDDEFAULTFONTPATH "/app/lib/saveimage64/share/fonts/X11/misc/,/app/lib/saveimage64/share/fonts/X11/TTF/,/app/lib/saveimage64/share/fonts/X11/OTF/,/app/lib/saveimage64/share/fonts/X11/Type1/,/app/lib/saveimage64/share/fonts/X11/100dpi/,/app/lib/saveimage64/share/fonts/X11/75dpi/"
 
 /* Support Composite Extension */
 #define COMPOSITE 1
