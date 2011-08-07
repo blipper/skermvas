@@ -146,12 +146,12 @@
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.0.15, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.3.1, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v1.2.0, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rdoc (v3.8, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ansi (v1.3.0, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rdoc (v3.8, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="addressable (v2.2.6, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="libv8 (v3.3.10.2, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.0, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crack (v0.1.6, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.0, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bcrypt-ruby (v2.1.4, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v1.3.2, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="therubyracer (v0.9.2, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
@@ -159,23 +159,23 @@
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.3.0, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v3.1.0.rc4, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="railties (v3.1.0.rc4, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="thin (v1.2.11, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.0.3, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="thin (v1.2.11, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="therubyracer-heroku (v0.8.1.pre3, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="eventmachine (v0.12.10, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activeresource (v3.1.0.rc4, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rmagick (v2.13.1, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.1.1, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.16, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="actionpack (v3.1.0.rc4, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="right_aws (v2.1.0, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="hashie (v0.4.0, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="actionpack (v3.1.0.rc4, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="hashie (v0.4.0, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.0.0.beta.10, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-cache (v1.0.2, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionmailer (v3.1.0.rc4, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.1, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails (v3.1.0.rc4, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.1, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v3.1.0.rc.4, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="right_http_connection (v1.3.0, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v0.9.2, RVM: ruby-1.9.2-head [global]) [gem]" level="application" />
