@@ -1,4 +1,7 @@
 lib/saveimage
-lib/saveimage64/libAwesomium.so
-bin/libAwesomium.so
+lib/saveimage64/bin
+lib/saveimage64/*.so*
+lib/saveimage64/include
+lib/saveimage64/var/log/*.log
+lib/saveimage64/lib
 .git

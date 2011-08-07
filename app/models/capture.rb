@@ -102,16 +102,31 @@ class Capture < ActiveRecord::Base
   end
 
 
-  def capturepagetoimage(url, imagefilename,uuid)
+  XDISPLAY = ":100"
+
+  def initXserver
+    # Test if Xvfb is running
+    xsetoutput = `#{Rails.root}/bin/xset q`
+
+
+
+    # Launch Xvfb Server
+    system(Rails.root+"/bin/Xvfb)
+
+  end
+
+  def capturepagetoimage(url, imagefilename,uuid,cookiejsonfile)
     cmdlineurl = Shellwords.escape(url)
     logger.debug Rails.env
-      #TODO Dirty hack until we get Awesomenium running on Heroku
-      Net::HTTP.start(EC2AWESOMNIUMBOX,3000) { |http|
-        resp = http.get('/sis.json?uuid='+uuid+'&'+'url='+url)
-        mysi = JSON.parse(resp.body)
-        logger.info mysi.inspect
-        pullfromaws(uuid,imagefilename)
-      }
+
+    ENV['DISPLAY'] = DISPLAY
+    ENV['LD_LIBRARY_PATH'] = Rails.root.to_s+'/bin'
+    logger.info 'Starting Save Image Call'
+    `#{Rails.root}/bin/SaveImage #{cmdlineurl} #{imagefilename} #{cookiejsonfile}`
+    logger.info 'Finished Save Image Call'
+
+
+
     #End Dirty Hack
   end
 

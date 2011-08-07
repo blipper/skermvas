@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30deb5e8-4016-4872-88a9-7dd2bbfd7cb3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/awesomium.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vericap.iml" afterPath="$PROJECT_DIR$/.idea/vericap.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.slugignore" afterPath="$PROJECT_DIR$/.slugignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/capture.rb" afterPath="$PROJECT_DIR$/app/models/capture.rb" />
     </list>
     <ignored path="vericap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,7 +92,7 @@
       <file leaf-file-name="capture.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/capture.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="35" selection-start="3888" selection-end="3888" vertical-scroll-proportion="0.346651">
+            <state line="109" column="4" selection-start="3521" selection-end="3521" vertical-scroll-proportion="0.35359117">
               <folding />
             </state>
           </provider>
@@ -101,7 +101,7 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/captures/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.0">
+            <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,10 +136,10 @@
         <option value="$PROJECT_DIR$/lib/screenshot/screenshot/manifest.json" />
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20110722232326_addcookiejar.rb" />
-        <option value="$PROJECT_DIR$/app/models/capture.rb" />
         <option value="$PROJECT_DIR$/app/controllers/captures_controller.rb" />
         <option value="$PROJECT_DIR$/lib/screenshot/screenshot/posturl.html" />
         <option value="$PROJECT_DIR$/lib/screenshot/screenshot/screenshot.js" />
+        <option value="$PROJECT_DIR$/app/models/capture.rb" />
       </list>
     </option>
   </component>
@@ -199,6 +199,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -252,21 +253,20 @@
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
-      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="153" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="169" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="158" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="175" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1084" />
+    <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1082" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1084" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="173" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="168" />
     <property name="Database.TableEditor.Splitter" value="0.9" />
@@ -280,8 +280,8 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="preferences.keymap" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -620,15 +620,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1680" height="1026" extended-state="7" />
-    <editor active="true" />
+    <frame x="0" y="-5" width="1680" height="1055" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275968" sideWeight="0.668187" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3388521" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29368487" sideWeight="0.21757771" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20907418" sideWeight="0.6420664" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21213979" sideWeight="0.6420664" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35793358" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -731,56 +731,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="22" selection-start="335" selection-end="335" vertical-scroll-proportion="0.053380784">
-          <folding />
-        </state>
+        <state line="3" column="22" selection-start="335" selection-end="335" vertical-scroll-proportion="0.053380784" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/screenshot/screenshot/posturl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.3504673">
-          <folding />
-        </state>
+        <state line="20" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.3504673" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="8" selection-start="45" selection-end="45" vertical-scroll-proportion="0.017045455">
-          <folding />
-        </state>
+        <state line="2" column="8" selection-start="45" selection-end="45" vertical-scroll-proportion="0.017045455" />
       </provider>
     </entry>
     <entry file="file:///usr/local/rvm/gems/ruby-1.9.2-head@global/gems/actionpack-3.1.0.rc4/lib/action_dispatch/routing/mapper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1052" column="45" selection-start="36950" selection-end="36950" vertical-scroll-proportion="0.017045455">
-          <folding />
-        </state>
+        <state line="1052" column="45" selection-start="36950" selection-end="36950" vertical-scroll-proportion="0.017045455" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/captures/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="23" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="19" column="23" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/captures/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/capture.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="35" selection-start="3888" selection-end="3888" vertical-scroll-proportion="0.346651">
+        <state line="109" column="4" selection-start="3521" selection-end="3521" vertical-scroll-proportion="0.35359117">
           <folding />
         </state>
       </provider>
