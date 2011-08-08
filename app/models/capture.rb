@@ -108,18 +108,20 @@ class Capture < ActiveRecord::Base
     xvfbpid = 0
     begin
       # Test if Xvfb is running
-      xsetoutput = `#{Rails.root}/bin/xset q`
+      xsetoutput = `#{Rails.root}/bin/xset -display #{XDISPLAY} q`
+      puts xsetoutput
 
       # Launch Xvfb Server if we are not waiting for it to start up
       if xvfbpid == 0
         xvfbpid = Process.spawn(Rails.root.to_s+"/bin/Xvfb "+ XDISPLAY)
+      end
       #  if Rails.env.production?
          # Don't detach for test or dev
       #    Process.detach(xvfbpid)
       #  end
-      end
+      #end
       sleep(0.05)
-    end until !xsetoutput.include? 'unable to open display'
+    end until xsetoutput.include? 'Keyboard Control'
     return xvfbpid
   end
 
