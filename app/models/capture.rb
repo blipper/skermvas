@@ -113,12 +113,12 @@ class Capture < ActiveRecord::Base
       # Launch Xvfb Server if we are not waiting for it to start up
       if xvfbpid == 0
         xvfbpid = Process.spawn(Rails.root.to_s+"/bin/Xvfb "+ XDISPLAY)
-        if Rails.env.production?
-          # Don't detach for test or dev
-          Process.detach(xvfbpid)
-        end
+      #  if Rails.env.production?
+         # Don't detach for test or dev
+      #    Process.detach(xvfbpid)
+      #  end
       end
-      sleep(0.1)
+      sleep(0.05)
     end until !xsetoutput.include? 'unable to open display'
     return xvfbpid
   end
@@ -143,10 +143,10 @@ class Capture < ActiveRecord::Base
     logger.info 'Starting Save Image Call'
     puts `#{Rails.root}/bin/SaveImage #{cmdlineurl} #{imagefilename} #{cookiejsonfile}`
     logger.info 'Finished Save Image Call'
-    if (!Rails.env.production?)
+    #if (!Rails.env.production?)
       Process.kill(9, xvbpid)
       Process.wait(xvbpid)
-    end
+    #end
   end
 
   def calcdimensions(imgcap,imagefilename)

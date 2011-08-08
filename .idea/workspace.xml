@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30deb5e8-4016-4872-88a9-7dd2bbfd7cb3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vericap.iml" afterPath="$PROJECT_DIR$/.idea/vericap.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/capture.rb" afterPath="$PROJECT_DIR$/app/models/capture.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/capture_test.rb" afterPath="$PROJECT_DIR$/test/unit/capture_test.rb" />
     </list>
     <ignored path="vericap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,19 +78,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="captures_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="captures_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="71" selection-start="133" selection-end="133" vertical-scroll-proportion="0.1160221">
+            <state line="32" column="34" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="capture.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="capture.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/capture.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="26" selection-start="3174" selection-end="3174" vertical-scroll-proportion="0.0">
+            <state line="122" column="16" selection-start="3950" selection-end="3950" vertical-scroll-proportion="0.7679558">
               <folding />
             </state>
           </provider>
@@ -165,9 +162,9 @@
         <option value="$PROJECT_DIR$/db/migrate/20110722232326_addcookiejar.rb" />
         <option value="$PROJECT_DIR$/lib/screenshot/screenshot/posturl.html" />
         <option value="$PROJECT_DIR$/lib/screenshot/screenshot/screenshot.js" />
-        <option value="$PROJECT_DIR$/app/models/capture.rb" />
         <option value="$PROJECT_DIR$/app/controllers/captures_controller.rb" />
         <option value="$PROJECT_DIR$/test/unit/capture_test.rb" />
+        <option value="$PROJECT_DIR$/app/models/capture.rb" />
       </list>
     </option>
   </component>
@@ -885,16 +882,16 @@
         <state line="6" column="72" selection-start="214" selection-end="277" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/capture.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="26" selection-start="3174" selection-end="3174" vertical-scroll-proportion="0.0">
+        <state line="32" column="34" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/captures_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/capture.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="71" selection-start="133" selection-end="133" vertical-scroll-proportion="0.1160221">
+        <state line="122" column="16" selection-start="3950" selection-end="3950" vertical-scroll-proportion="0.7679558">
           <folding />
         </state>
       </provider>
