@@ -21,7 +21,7 @@ class Capture < ActiveRecord::Base
 
   def capturepage
     localimagefilename = generatefilename(uuid)
-    capturepagetoimage(url, localimagefilename,uuid)
+    capturepagetoimage(url, localimagefilename,uuid,cookiejar)
     calcdimensions(self,localimagefilename)
     logger.debug self.inspect
 
@@ -105,29 +105,48 @@ class Capture < ActiveRecord::Base
   XDISPLAY = ":100"
 
   def initXserver
-    # Test if Xvfb is running
-    xsetoutput = `#{Rails.root}/bin/xset q`
+    xvfbpid = 0
+    begin
+      # Test if Xvfb is running
+      xsetoutput = `#{Rails.root}/bin/xset q`
 
-
-
-    # Launch Xvfb Server
-    system(Rails.root+"/bin/Xvfb)
-
+      # Launch Xvfb Server if we are not waiting for it to start up
+      if xvfbpid == 0
+        xvfbpid = Process.spawn(Rails.root.to_s+"/bin/Xvfb "+ XDISPLAY)
+        if Rails.env.production?
+          # Don't detach for test or dev
+          Process.detach(xvfbpid)
+        end
+      end
+      sleep(0.1)
+    end until !xsetoutput.include? 'unable to open display'
+    return xvfbpid
   end
 
-  def capturepagetoimage(url, imagefilename,uuid,cookiejsonfile)
+  def capturepagetoimage(url, imagefilename,uuid,cookiejson)
     cmdlineurl = Shellwords.escape(url)
+    if cmdlineurl==""
+      raise "Can't capture empty URL'"
+    end
     logger.debug Rails.env
 
-    ENV['DISPLAY'] = DISPLAY
+    xvbpid = initXserver
+
+    if (defined? cookiejar && cookiejar.length>1)
+      cookiejsonfile = Tempfile.new('cookiejar')
+      cookiejsonfile.write(cookiejson)
+      cookiejsonfile.close
+    end
+
+    ENV['DISPLAY'] = XDISPLAY
     ENV['LD_LIBRARY_PATH'] = Rails.root.to_s+'/bin'
     logger.info 'Starting Save Image Call'
-    `#{Rails.root}/bin/SaveImage #{cmdlineurl} #{imagefilename} #{cookiejsonfile}`
+    puts `#{Rails.root}/bin/SaveImage #{cmdlineurl} #{imagefilename} #{cookiejsonfile}`
     logger.info 'Finished Save Image Call'
-
-
-
-    #End Dirty Hack
+    if (!Rails.env.production?)
+      Process.kill(9, xvbpid)
+      Process.wait(xvbpid)
+    end
   end
 
   def calcdimensions(imgcap,imagefilename)

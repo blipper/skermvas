@@ -39,5 +39,28 @@ class CaptureTest < ActiveSupport::TestCase
     assert !capture.save, "Saved empty capture!!"
   end
 
+  test "Capture full page www.google.com capture" do
+    capture = Capture.new()
+    capture.url = "http://www.google.com"
+    capture.capturepage
+    puts capture.inspect
+    assert capture.save, "www.google.com full page capture failed"
+    # Google SHA will change so just compare lengths
+    assert capture.sha2.length == "73d93c11f68f8577c68babf10237bb1e2e0475aefe351fd3766e52de2af03e76".length, "No SHA2 signature found"
+    assert_not_nil capture.retrievaldatetime, "No retrievaldatetime stamp found"
+  end
+
+  test "Capture full page www.google.com capture and crop" do
+    capture = Capture.new()
+    capture.url = "http://www.google.com"
+    capture.capturepage
+    capture.makeshorturls('http://www.skermvas.com' + '/test' + '/' + capture.uuid)
+    capture.crop(100.to_s,100.to_s,10.to_s,10.to_s)
+    capture.save
+    puts capture.inspect
+  end
+
+
+
 
 end
