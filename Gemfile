@@ -16,9 +16,10 @@ group :assets do
   gem 'coffee-script'
   gem 'uglifier'
 end
+gem 'jquery-rails'
+
 
 gem 'arel', '2.1.4'
-gem 'jquery-rails'
 gem 'url_validator'
 gem 'uuidtools'
 gem 'url_shortener'
@@ -40,7 +41,7 @@ gem 'ffi'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
-  gem 'execjs'
-  gem 'therubyracer'
+  #gem 'execjs'
+  #gem 'therubyracer'
 end
 
