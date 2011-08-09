@@ -1,5 +1,9 @@
 lib/saveimage
-lib/saveimage64/bin
+lib/saveimage64/bin/*.so*
+lib/saveimage64/bin/X*
+lib/saveimage64/bin/xset
+lib/saveimage64/bin/cvt
+lib/saveimage64/bin/gtf
 lib/saveimage64/*.so
 lib/saveimage64/include
 lib/saveimage64/var/log/*.log
