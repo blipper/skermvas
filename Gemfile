@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0.rc4'
+gem 'rails', '3.1.0.rc5'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -9,12 +9,16 @@ gem 'rails', '3.1.0.rc4'
 gem 'pg'
 gem 'thin'
 
+
 # Asset template engines
-gem 'sass-rails', "~> 3.1.0.rc"
-gem 'coffee-script'
-gem 'uglifier'
+group :assets do
+  gem 'sass-rails', "~> 3.1.0.rc"
+  gem 'coffee-script'
+  gem 'uglifier'
+end
+
+gem 'arel', '2.1.4'
 gem 'execjs'
-gem 'therubyracer'
 gem 'jquery-rails'
 gem 'url_validator'
 gem 'uuidtools'
@@ -37,8 +41,6 @@ gem 'ffi'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
+  gem 'therubyracer'
 end
 
-group :production do
-  gem 'therubyracer-heroku'
-end

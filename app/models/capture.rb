@@ -141,7 +141,7 @@ class Capture < ActiveRecord::Base
     end
 
     ENV['DISPLAY'] = XDISPLAY
-    #ENV['LD_LIBRARY_PATH'] = Rails.root.to_s+'/bin'
+    ENV['LD_LIBRARY_PATH'] = Rails.root.to_s+'/bin'
     logger.info 'Starting Save Image Call'
     puts `#{Rails.root}/bin/SaveImage #{cmdlineurl} #{imagefilename} #{cookiejsonfile}`
     # Need to set working directory so Awesomium can find chrome.pak
