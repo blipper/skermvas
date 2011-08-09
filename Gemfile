@@ -17,6 +17,7 @@ group :assets do
   gem 'uglifier'
 end
 gem 'jquery-rails'
+gem 'execjs'
 
 
 gem 'arel', '2.1.4'
@@ -41,7 +42,6 @@ gem 'ffi'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
-  #gem 'execjs'
-  #gem 'therubyracer'
+  gem 'therubyracer'
 end
 

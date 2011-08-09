@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30deb5e8-4016-4872-88a9-7dd2bbfd7cb3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
     </list>
     <ignored path="vericap.iws" />
@@ -90,7 +92,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="3" selection-start="702" selection-end="702" vertical-scroll-proportion="0.84745765">
+            <state line="20" column="47" selection-start="336" selection-end="336" vertical-scroll-proportion="0.53672314">
               <folding />
             </state>
           </provider>
@@ -757,7 +759,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="3" selection-start="702" selection-end="702" vertical-scroll-proportion="0.84745765">
+        <state line="20" column="47" selection-start="336" selection-end="336" vertical-scroll-proportion="0.53672314">
           <folding />
         </state>
       </provider>
