@@ -18,7 +18,6 @@ group :assets do
 end
 
 gem 'arel', '2.1.4'
-gem 'execjs'
 gem 'jquery-rails'
 gem 'url_validator'
 gem 'uuidtools'
@@ -41,6 +40,7 @@ gem 'ffi'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
+  gem 'execjs'
   gem 'therubyracer'
 end
 
