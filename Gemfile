@@ -22,6 +22,7 @@ gem 'url_shortener'
 gem 'rmagick',:require => 'RMagick'
 gem 'right_aws'
 gem 'right_http_connection'
+gem 'ffi'
 
 
 # Use unicorn as the web server

@@ -141,9 +141,14 @@ class Capture < ActiveRecord::Base
     end
 
     ENV['DISPLAY'] = XDISPLAY
-    ENV['LD_LIBRARY_PATH'] = Rails.root.to_s+'/bin'
+    #ENV['LD_LIBRARY_PATH'] = Rails.root.to_s+'/bin'
     logger.info 'Starting Save Image Call'
     puts `#{Rails.root}/bin/SaveImage #{cmdlineurl} #{imagefilename} #{cookiejsonfile}`
+    # Need to set working directory so Awesomium can find chrome.pak
+    #if !Rawesomium::Rawesomium.SaveImage(Rails.root.to_s+'/bin/AwesomiumProcess', cmdlineurl.to_s, imagefilename.to_s,cookiejsonfile.to_s)
+    #  raise "Could not capture page!"
+    #end
+
     logger.info 'Finished Save Image Call'
     #if (!Rails.env.production?)
       Process.kill(9, xvbpid)
