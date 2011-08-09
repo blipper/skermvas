@@ -4,15 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30deb5e8-4016-4872-88a9-7dd2bbfd7cb3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/rawesomium/rawesomium.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vericap.iml" afterPath="$PROJECT_DIR$/.idea/vericap.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/capture.rb" afterPath="$PROJECT_DIR$/app/models/capture.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-    </list>
+    <list default="true" id="30deb5e8-4016-4872-88a9-7dd2bbfd7cb3" name="Default" comment="" />
     <ignored path="vericap.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -96,7 +88,7 @@
       <file leaf-file-name="capture.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/capture.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="8" selection-start="4928" selection-end="4928" vertical-scroll-proportion="0.23814899">
+            <state line="158" column="99" selection-start="5068" selection-end="5068" vertical-scroll-proportion="0.33972913">
               <folding />
             </state>
           </provider>
@@ -897,7 +889,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/capture.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="8" selection-start="4928" selection-end="4928" vertical-scroll-proportion="0.23814899">
+        <state line="158" column="99" selection-start="5068" selection-end="5068" vertical-scroll-proportion="0.33972913">
           <folding />
         </state>
       </provider>
